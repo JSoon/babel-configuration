@@ -1,0 +1,27 @@
+{
+  "name": "babel-configuration",
+  "version": "1.0.0",
+  "description": "babel配置",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSoon/babel-configuration.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSoon/babel-configuration/issues"
+  },
+  "homepage": "https://github.com/JSoon/babel-configuration#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
